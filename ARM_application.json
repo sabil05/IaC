@@ -36,6 +36,7 @@
             "type": "securestring"
         },
         "subnetId": {
+            "defaultValue": "AdditionalSubnet",
             "type": "string"
         },
         "ImageName": {
