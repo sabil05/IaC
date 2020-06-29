@@ -69,7 +69,7 @@ packer build <JSON file name>
 
 Once the image creation has been complete. Kindly make a note of the Image name, which you have proivde as an input to the another JSON file. 
 
-Now deploy the another JSON file which will create an Bastion Host, VNET, SUBNET, VM and LB. Once you are able to deploy these service sucessfully. 
+Now deploy the another JSON file which will create an Bastion Host, VNET, SUBNET, VM, LB and Alert metric with Action group for CPU utilization. Once you are able to deploy these service sucessfully. 
 
 You will be able to access VM using bastion host. 
 
