@@ -79,3 +79,10 @@ Cick on below to deploy the deployment. Please input all the required filed to c
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsabil05%2FIaC%2Fmaster%2FARM_application.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
+
+
+Once you are done with successful deployment. Please go to the <b> Virtual Machine -> Select VM which you want to connect through Bastion host -> Click Connect -> choose bastion.</b>
+
+Please provide the Login crednatials and then you will be able to access it. 
+
+You can validate the Load balancer as well. <b> Go to Load Balancer -> Select the load balacer -> Copy the public IP and enter in address of a broweser.</b> 
