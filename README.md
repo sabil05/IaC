@@ -55,13 +55,15 @@ Please update the below JSON file to create and image. Kindly update the followi
 "managed_image_resource_group_name": "",
 "managed_image_name": "",
 ```
-Here is the JSON available. 
+Here is the JSON available. Download the JSON file and update required details and store it on your local drive. 
 https://github.com/sabil05/IaC/blob/master/Ubuntu_MySQL
 
-Once you are done with updating JSON file. Execute the following command from Azure CLI. 
+Once you are done with updating JSON file. Upload the file into the Azure cli and execute the following command. 
+
+<img src=uploadfile.PNG>
 
 ```
-packer build https://raw.githubusercontent.com/sabil05/IaC/master/Ubuntu_MySQL.json
+packer build <JSON file name>
 ```
 <img src=packer.PNG>
 
