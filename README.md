@@ -12,6 +12,11 @@ This ARM template will create following resources.
 3. Two subnet
    I  AzureBastionSubnet - Default and Madndatory subnet for Bastion hosts with /27 prefix to CIDR. 
    II AdditionalSubnet - Additional Subnet we are creation to create a Virutal machine in it. 
+   
+
+<b> <u> All the resource will deploy in the same Resource Group and Location as created above. </u> </b>
+
+<b> <u> Note:- Multiple Bastion Hosts are not allowed in a sing VNET  </u> </b>
 
 Prerequiste
 -----------
@@ -82,6 +87,10 @@ Cick on below to deploy the deployment. Please input all the required filed to c
 
 
 Once you are done with successful deployment. Please go to the <b> Virtual Machine -> Select VM which you want to connect through Bastion host -> Click Connect -> choose bastion.</b>
+
+<img src=bastionconnect.PNG>
+
+<img src=bastionaccess.PNG>
 
 Please provide the Login crednatials and then you will be able to access it. 
 
