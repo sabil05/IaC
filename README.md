@@ -1,4 +1,11 @@
-# Azure Bastion Host. 
+# IaC for Design Pattern. 
+
+In this design pattern we will be deploying a Bastion Host, Virtual Machine's along with Naginx and MySQL databse behind load balancer. 
+
+## Conceputual Diagram. 
+
+
+## Azure Bastion Host. 
 
 Managed RDP/SSH to VMs over SSL using private IP on the VM
 Azure Bastion is a fully managed PaaS service that provides secure and seamless RDP and SSH access to your virtual machines directly through the Azure Portal. Azure Bastion is provisioned directly in your Virtual Network (VNet) and supports all VMs in your Virtual Network (VNet) using SSL without any exposure through public IP addresses.
