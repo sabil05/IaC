@@ -1,6 +1,6 @@
 # IaC for Design Pattern. 
 
-In this design pattern we will be deploying a Bastion Host, Virtual Machine's along with Naginx and MySQL databse behind load balancer. 
+In this design pattern we will be deploying 3 Tier application. Which incldes Bastion Host, Virtual Machine's along with Naginx and MySQL databse behind load balancer. Enabaling the monitoring for performace metric such as CPU utilization and it will send an email once alert trigger. 
 
 ## Conceputual Diagram. 
 
