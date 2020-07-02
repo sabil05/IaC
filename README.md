@@ -4,7 +4,7 @@ In this design pattern we will be deploying 3 Tier application. Which incldes Ba
 
 ## Conceputual Diagram. 
 
-<img src=IaC.png>
+<img src=IaC1.PNG>
 
 ## Azure Bastion Host. 
 
