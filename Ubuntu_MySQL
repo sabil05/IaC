@@ -33,7 +33,6 @@
         "apt-get update",
         "apt-get upgrade -y",
         "apt-get -y install nginx",
-        "sudo apt install -y mysql-server",
 
         "/usr/sbin/waagent -force -deprovision+user && export HISTSIZE=0 && sync"
       ],
