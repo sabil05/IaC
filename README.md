@@ -89,7 +89,7 @@ You will be able to access VM using bastion host.
 
 Cick on below to deploy the deployment. Please input all the required filed to complete the deployment. 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsabil05%2FIaC%2Fmaster%2FARM_application.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsabil05%2FIaC%2Fmaster%2Fupdated.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
 
